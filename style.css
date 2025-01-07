@@ -1,0 +1,162 @@
+
+@keyframes lights{
+
+    0%{
+
+        color:hsl(231, 38%, 65%);
+
+        text-shadow: 
+
+        0 0 1em hsla(336, 100%, 50%, 0.378),
+
+        0 0 0.125em hsla(320, 88%, 57%, 0.3),
+
+        -1em -0.125em 0.5em hsla(40, 83%, 55%, 0),
+
+        1em 0.125em 0.5em hsla(200,100%,60%,0);
+
+    }
+
+
+
+    30% {
+
+        color:hsl(230,80%,90%);
+
+        text-shadow: 
+
+        0 0 1em hsla(320,100%,50%,0.5),
+
+        0 0 0.125em hsla(320,100%,60%,0.5),
+
+        -0.5em -0.125em 0.25em hsla(40,100%,60%,0.2),
+
+        0.5em 0.125em 0.25em hsla(200,100%,60%,0.4);
+
+    }
+
+
+
+    
+
+    40% {
+
+        color:hsl(230,100%,95%);
+
+        text-shadow: 
+
+        0 0 1em hsla(320,100%,50%,0.5),
+
+        0 0 0.125em hsla(320,100%,90%,0.5),
+
+        -0.25em -0.125em 0.125em hsla(40,100%,60%,0.2),
+
+        0.25em 0.125em 0.125em hsla(200,100%,60%,0.4);
+
+    }
+
+
+
+    
+
+    70% {
+
+        color:hsl(230,80%,90%);
+
+        text-shadow: 
+
+        0 0 1em hsla(320,100%,50%,0.5),
+
+        0 0 0.125em hsla(320,100%,60%,0.5),
+
+        0.5em -0.125em 0.25em hsla(40,100%,60%,0.2),
+
+        -0.5em 0.125em 0.25em hsla(200,100%,60%,0.4);
+
+    }
+
+
+
+    100%{
+
+        color:hsl(230,40%,80%);
+
+        text-shadow: 
+
+        0 0 1em hsla(320,100%,50%,0.2),
+
+        0 0 0.125em hsla(320,100%,60%,0.3),
+
+        1em -0.125em 0.5em hsla(40,100%,60%,0),
+
+        -1em 0.125em 0.5em hsla(200,100%,60%,0);
+
+    }
+
+}
+
+
+
+body {
+    background-color: #121212; /* Dark background */
+    color: white; /* White text */
+}
+
+.navbar {
+    background-color: #212529 !important; /* Dark navbar */
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important; /* White text for links */
+}
+
+.nav-link:hover {
+    color: #0d6efd !important; /* Bootstrap primary color on hover */
+}
+
+.dropdown-menu {
+    background-color: #212529 !important; /* Dark dropdown background */
+}
+
+.dropdown-item {
+    color: white !important; /* White text for dropdown items */
+}
+
+.dropdown-item:hover {
+    background-color: #0d6efd !important; /* Highlight dropdown item on hover */
+    color: white !important;
+}
+
+.form-control {
+    background-color: #343a40; /* Dark input background */
+    color: white; /* White input text */
+    border: 1px solid #6c757d; /* Gray border */
+}
+
+.form-control::placeholder {
+    color: #adb5bd; /* Light gray placeholder */
+}
+
+.btn-outline-success {
+    color: #0d6efd; /* Bootstrap primary color */
+    border-color: #0d6efd;
+}
+
+.btn-outline-success:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+
+.lightning{
+
+    margin: auto;
+
+    font-size: 120px;
+
+    font-weight: bold;
+
+    animation: lights 5s 750ms linear infinite;
+
+}
